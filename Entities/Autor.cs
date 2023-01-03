@@ -7,5 +7,7 @@ namespace MiPrimerWebAPIM3.Entities
         public int Id { get; set; }
         [Required]
         public string Nombre{ get; set; }
+
+        public List<Libro> Libros { get; set; }
     }
 }
